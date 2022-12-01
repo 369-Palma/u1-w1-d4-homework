@@ -56,21 +56,37 @@ main{
   font-family: Poppins;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
-
+iframe{
+  border-radius: 0,5;
+}
 /* TABELLE */
 
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
-
+.correlati div{
+  background: #dfe3e6;
+  background-color: linear-gradient (0deg,rgba(53,53,53,1) 0%,rba(5,85,10));
+  box-shadow: 1px 1px 1px 1px rgb(88, 84, 84);
+}
+.data{
+  text-align: right;
+  text-size-adjust: 5px;
+}
 /* FOOTER */
 footer{ 
   background-color: white;
   box-shadow: 4px 4px 4px 4px rgb(88, 84, 84);
+  background: #114d5c;
+  background-color: linear-gradient (0deg,rgb(35, 86, 91) 35%,rgb(8, 60, 81));
+  box-shadow: 4px 4px 4px 4px rgb(88, 84, 84);
+  text-align: center;
+  
 }
 .viola{
-  color:rgb(184, 32, 156);
+  color:rgb(235, 56, 226);
 }
+
 </style>
 
 <!---########## FINE STYLE###########-->
@@ -208,31 +224,42 @@ footer{
         <button type="submit">REGISTRATI</button>
       </form>
     </fieldset>
-  </main>
-  <hr />
-  <side>
+  
+  
     <p>
       <!--Area correlati-->
     </p>
 
-    <h4><strong>Articoli coorelati</strong></h4>
-    <p>
-      Validare il codice HTML <br />
-      Cateoria:develop <br />
-      Data: 18-9-2020
-    </p>
-    <p>
-      Correggere la sintassi <br />
-      Categoria: develop <br />
-      Data: 16-9-2020
-    </p>
-    <p>
-      Mano Kb nella pagina <br />
-      Categoria: ottimizzazione <br />
-      Data: 30-9-2020
-    </p>
-  </side>
-  <hr />
+    <h4><strong>ARTICOLI CORRELATI</strong></h4>
+   <div class="correlati"> 
+    <div>
+      <p>
+        <a href="#">Validare il codice HTML</a> <br />
+        Cateoria:develop </p>
+      <p class="data">
+        Data: 18-9-2020
+      </p>
+    </div>
+    <div>
+      <p>
+        <a href="#">Correggere la sintassi</a> <br />
+        Categoria: develop 
+      </p>
+      <p class="data">
+        Data: 16-9-2020
+      </p>
+    </div>
+    <div>
+      <p>
+        <a href="#">Mano Kb nella pagina </a><br />
+        Categoria: ottimizzazione
+      </p>
+        <p class="data">
+          Data: 30-9-2020
+      </p>
+    </div>
+  </div>  
+  </main>
   <footer>
     <div>
       <p>Blog Epicode &copy;2021</p>
