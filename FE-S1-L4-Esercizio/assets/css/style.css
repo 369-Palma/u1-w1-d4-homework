@@ -1,4 +1,11 @@
 /* IMPOSTAZIONI GENERALI */
+<style > body {
+  background-image: url(../img/sfondo.png);
+  width: 100%;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* HEADER */
 
