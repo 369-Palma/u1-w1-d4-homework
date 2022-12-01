@@ -1,14 +1,18 @@
 /* IMPOSTAZIONI GENERALI */
-<style > body {
-  background-image: url(../img/sfondo.png);
-  width: 100%;
-  max-width: 450px;
-  margin-left: auto;
-  margin-right: auto;
-}
+<style > 
+
+  body {
+    background-image: url(../img/sfondo.png);
+    width: 100%;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 /* HEADER */
-
+header{
+  background-color:linear-gradient(rgb(72, 201, 226)rgb(72,201,226));
+}
 /* MAIN */
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -20,3 +24,4 @@
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+</style>
