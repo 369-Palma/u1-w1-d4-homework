@@ -32,7 +32,7 @@ header{
   box-shadow: 20px 20px 20px grey;
 }
 button{
-border-bottom:h;
+border-bottom:;
 }
 .logo{
   max-width: 300px;
@@ -60,6 +60,9 @@ main{
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+.viola{
+  color:rgb(184, 32, 156);
+}
 </style>
 
 <!---########## FINE STYLE###########-->
@@ -86,7 +89,147 @@ main{
         </div>
       </div>
   </header>
-    <main></main>
-    <footer></footer>
-  </body>
+  <main>
+    <h1>
+      <strong>Come creare un template per i post</strong>
+    </h1>
+    <h3>di Mario Rossi - pubblicato il 25-10-2020</h3>
+    <p>
+      La prima cosa da fare è suddividere in blocchi logici la pagina,
+      identificando le parti comuni da applicare a tutte le pagine.
+    </p>
+    <p>Le varie aree saranno quindi divise in:</p>
+    <ul>
+      <li>Contenuti di intestazioni del tag <code>&lt;header&gt;</code></li>
+      <li>
+        Contenuti centrali varibili del tag <code>&lt;main&gt;</code>(corpo
+        principale)
+      </li>
+      <li>
+        Contenuti di fine agina comuni, da inserire nel tag
+        <code>&lt;footer&gt;</code>
+      </li>
+      <li>Formattazione del codice</li>
+    </ul>
+    <p>
+      Il testo dell'articolo dovrà essere formattato per identificare tutte le
+      parti da selezionare con i CSS. Perciò i passi saranno:
+    </p>
+    <ol>
+      <li>
+        Progettare il markup assegnando ad ogni specifico test il tag apposito
+      </li>
+      <li>
+        Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il
+        basso
+      </li>
+      <li>Applicare gli stili CSS</li>
+      <li>
+        L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere
+        la diffusione pressochè totale
+      </li>
+    </ol>
+    <!--Tabella a tre colonne-->
+    <table>
+      <caption>
+        <strong>Diffusione dei CSS</strong>
+      </caption>
+      <tr>
+        <td colspan="10"><strong>Anno</strong></td>
+        <td colspan="10">
+          <strong>% di <br />utilizzo</strong>
+        </td>
+        <td colspan="10">
+          <strong>Supporto <br />browsers</strong>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="10">2000</td>
+        <td colspan="10">20%</td>
+        <td colspan="10">17%</td>
+      </tr>
+      <tr>
+        <td colspan="10">2002</td>
+        <td colspan="10">35%</td>
+        <td colspan="10">22%</td>
+      </tr>
+      <tr>
+        <td colspan="10">2004</td>
+        <td colspan="10">45%</td>
+        <td colspan="10">42%</td>
+      </tr>
+      <tr>
+        <td colspan="10">2008</td>
+        <td colspan="10">80%</td>
+        <td colspan="10">51%</td>
+      </tr>
+      <tr>
+        <td colspan="10">2012</td>
+        <td colspan="10">100%</td>
+        <td colspan="10">76%</td>
+      </tr>
+    </table>
+    <p>
+      Un test di valutazione potrà essere fatto tramite il
+      <a href="https://jigsaw.w3.org/css-validator/"
+        ><strong>tool online</strong></a
+      >
+      dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il
+      nostro obiettivo ed essere stati dei veri developers come loro:<br />
+    </p>
+
+    <p>
+      <iframe
+        width="250"
+        height="250"
+        src="https://www.youtube.com/embed/dvOvHXruEDM"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </p>
+    <hr />
+    <!--Form newsletter-->
+    <p>
+      Vuoi rimanere aggiornato sulle altre novità del blog?
+      <strong>Iscriviti alla nostra newsletter:</strong>
+    </p>
+    <fieldset>
+      <form onsubmit="alert('Form inviato')">
+        <input type="email" placeholder="Inserisci la tua email" />
+        <button type="submit">REGISTRATI</button>
+      </form>
+    </fieldset>
+  </main>
+  <hr />
+  <side>
+    <p>
+      <!--Area correlati-->
+    </p>
+
+    <h4><strong>Articoli coorelati</strong></h4>
+    <p>
+      Validare il codice HTML <br />
+      Cateoria:develop <br />
+      Data: 18-9-2020
+    </p>
+    <p>
+      Correggere la sintassi <br />
+      Categoria: develop <br />
+      Data: 16-9-2020
+    </p>
+    <p>
+      Mano Kb nella pagina <br />
+      Categoria: ottimizzazione <br />
+      Data: 30-9-2020
+    </p>
+  </side>
+  <hr />
+  <footer>
+    <div>
+      <p>Blog Epicode &copy;2021</p>
+    </div>
+    <p>Testata online di Mario Rosso, registrata con <br>prot.n.213/2018 - via Luigi Einaudi 2 - Milano.<br>P.IVA 00112233. <a class="viola" href="#">info@epicode.school</a></p>
+  </footer>
+</body>
 </html>
