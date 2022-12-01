@@ -56,13 +56,21 @@ main{
   font-family: Poppins;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
-iframe{
+.iframe {
+  margin:10px auto;
+  margin-left: 10px auto;
   border-radius: 0,5;
 }
 /* TABELLE */
 
 /* FORM */
+.form{
+  background: #dfe3e6;
+text-align: center;}
 
+.iscriviti button{
+background-color: blue;
+}
 /* ELEMENTI NELL' ASIDE */
 .correlati div{
   background: #dfe3e6;
@@ -203,7 +211,7 @@ footer{
     </p>
 
     <p>
-      <iframe
+      <iframe>
         width="250"
         height="250"
         src="https://www.youtube.com/embed/dvOvHXruEDM"
@@ -212,25 +220,28 @@ footer{
         allowfullscreen
       ></iframe>
     </p>
-    <hr />
+    
     <!--Form newsletter-->
+  <div class="form">
+    <h2>NOVITA'</h2>
     <p>
       Vuoi rimanere aggiornato sulle altre novità del blog?
       <strong>Iscriviti alla nostra newsletter:</strong>
     </p>
+
     <fieldset>
       <form onsubmit="alert('Form inviato')">
         <input type="email" placeholder="Inserisci la tua email" />
-        <button type="submit">REGISTRATI</button>
+        <button class="iscriviti" type="submit">Iscriviti</button>
       </form>
     </fieldset>
-  
+    </div>
   
     <p>
       <!--Area correlati-->
     </p>
 
-    <h4><strong>ARTICOLI CORRELATI</strong></h4>
+    <h2><strong>ARTICOLI CORRELATI</strong></h2>
    <div class="correlati"> 
     <div>
       <p>
