@@ -2,7 +2,9 @@
 <style > 
 
   body {
-    background-image: url(../img/sfondo.png);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: url(../FE-S1-L4-Esercizio/assets/img/sfondo.png);
     width: 100%;
     max-width: 450px;
     margin-left: auto;
@@ -11,17 +13,75 @@
 
 /* HEADER */
 header{
-  background-color:linear-gradient(rgb(72, 201, 226)rgb(72,201,226));
+  margin: 50px auto;
+  padding: 25px;
+  border-color: rgb(86, 168, 165);
+  border-style: solid;
+  background: linear-gradient(120deg,#197b93, #35b6d6);
+  box-shadow: 4px 4px 4px 4px rgb(88, 84, 84);
+}
+
+
+.logo{
+  max-width: 300px;
+}
+.headertitle{
+  text-align: center;
+  pudding:25px;
+}
+.menù{
+  display: block;
+  margin:auto;
+  text-align: center;
+  pudding:25px;
 }
 /* MAIN */
-
+main{
+  color:black;
+  background: white;
+  padding:2em;
+  padding: 25px;
+  box-shadow: 4px 4px 4px 4px rgb(88, 84, 84);
+  font-family: 'Poppins', sans-serif;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
-
+#video {
+  margin:10px auto;
+  margin-left: 10px auto;
+  border-radius: 20px;
+}
 /* TABELLE */
 
 /* FORM */
+.form{
+  background: #dfe3e6;
+text-align: center;}
 
+.iscriviti button{
+background-color: blue;
+}
 /* ELEMENTI NELL' ASIDE */
-
+.correlati div{
+  background: #dfe3e6;
+  background-color: linear-gradient (0deg,rgba(53,53,53,1) 0%,rba(5,85,10));
+  box-shadow: 1px 1px 1px 1px rgb(88, 84, 84);
+}
+.data{
+  text-align: right;
+  text-size-adjust: 5px;
+}
 /* FOOTER */
+footer{ 
+  background-color: white;
+  box-shadow: 4px 4px 4px 4px rgb(88, 84, 84);
+  background: #114d5c;
+  background-color: linear-gradient (0deg,rgb(35, 86, 91) 35%,rgb(8, 60, 81));
+  box-shadow: 4px 4px 4px 4px rgb(88, 84, 84);
+  text-align: center;
+  
+}
+.viola{
+  color:rgb(235, 56, 226);
+}
+
 </style>

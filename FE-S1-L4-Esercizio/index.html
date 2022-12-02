@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="reset" href="../FE-S1-L4-Esercizio/assets/css/reset.css"/>
-    <link rel="stylesheet" href="../FE-S1-L4-Esercizio/assets/css/style.css" />
-    <link rel="fontsheet" href="../FE-S1-L4-Esercizio/assets/css/font-awesome.css" />
-<!--###########style da mettere nell'apposito sheetstyle#############-->
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
+    <link rel="stylesheet" href="./assets/css/font-awesome.css" />
+    <link rel="fontsheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+<!--######### Inizio Style da spostare in style.css#############-->
+
+/* IMPOSTAZIONI GENERALI */
 <style > 
 
   body {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     color: white;
     background-image: url(../FE-S1-L4-Esercizio/assets/img/sfondo.png);
     width: 100%;
     max-width: 450px;
     margin-left: auto;
     margin-right: auto;
-
   }
 
 /* HEADER */
@@ -37,12 +40,14 @@ header{
   max-width: 300px;
 }
 .headertitle{
+  margin-top: 1em;
   text-align: center;
   pudding:25px;
 }
 .menù{
   display: block;
   margin:auto;
+  margin-top: 2em;
   text-align: center;
   pudding:25px;
 }
@@ -53,7 +58,7 @@ main{
   padding:2em;
   padding: 25px;
   box-shadow: 4px 4px 4px 4px rgb(88, 84, 84);
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 #video {
@@ -97,10 +102,7 @@ footer{
 
 </style>
 
-<!---########## FINE STYLE###########-->
-
-  </head>
-
+<!--########### Fine Style da spostare in style.css############-->
   <body>
     <header>
       <div class="logo">
@@ -111,13 +113,13 @@ footer{
       </div>
       <div class="menù">
         <div>
-          <p>&#8658 <button>HOME</button> &#8656</p>
+          <p>&#8658 HOME &#8656</p>
         </div>
         <div>
-          <p>&#8658 <button>ARTICOLI</button> &#8656 </p>
+          <p>&#8658 ARTICOLI &#8656 </p>
         </div>
         <div>
-          <p>&#8658 <button> LAVORA CON NOI </button> &#8656</p>
+          <p>&#8658 LAVORA CON NOI &#8656</p>
         </div>
       </div>
   </header>
